@@ -1,0 +1,46 @@
+nav {
+    background:none;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+.menuItems
+ {
+      list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    min-width: fit-content;
+}
+nav li {
+    background-color: #6A0408;
+    border-color: #5b5c5b;
+    margin-top: 1rem;
+    background: rgb(45,45,45);
+    background: linear-gradient(0deg, rgba(45,45,45,1) 0%, rgba(106,4,8,1) 36%, rgba(106,4,8,1) 90%, rgba(153,66,41,1) 95%, rgba(40,40,40,1) 100%);
+    border-color: #000000;
+    border-radius: 0.5rem;
+    border: ridge 0.2rem;
+
+    box-shadow: 0.1rem 0.1rem 0.3rem 0.2rem rgba(0,0,0,0.5);
+      
+}
+nav li a.nav-link {
+    padding: 0.1rem 0.5rem;
+}
+nav ul a 
+{
+          text-decoration: none;
+          color: #fafafa;
+          font-size: 24px;
+          text-transform: uppercase;
+          text-shadow: 1px 1px 2px black;
+          
+}
+  
+a:hover{
+            text-decoration: dotted;
+            transition: 0.5s;
+            color: #F6C500;
+            transition: all 0.2s ease-in-out;
+}
